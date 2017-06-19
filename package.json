@@ -1,0 +1,31 @@
+{
+  "name": "squire",
+  "version": "1.0.0",
+  "description": "Squire",
+  "scripts": {
+    "dev": "concurrently \"cd backend && rails server\" \"cd frontend && npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abelosorio/squire.git"
+  },
+  "keywords": [
+    "Squire",
+    "ReactJS",
+    "Ruby",
+    "on",
+    "Rails",
+    "GraphQL",
+    "Sequelize",
+    "PostgreSQL"
+  ],
+  "author": "Abel M. Osorio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abelosorio/squire/issues"
+  },
+  "homepage": "https://github.com/abelosorio/squire#readme",
+  "dependencies": {
+    "concurrently": "^3.4.0"
+  }
+}
